@@ -1,0 +1,23 @@
+All Products
+-------------
+url : https://fakestoreapi.com/products
+method type : GET
+Data Format : [
+                {
+                    id:1,
+                    title:'...',
+                    price:'...',
+                    category:'...',
+                    description:'...',
+                    image:'...'
+                },
+                
+                {
+                    id:30,
+                    title:'...',
+                    price:'...',
+                    category:'...',
+                    description:'...',
+                    image:'...'
+                }
+            ]
