@@ -1,0 +1,43 @@
+.mainProfileContainer {
+  display: flex;
+  width: 1200px;
+  height: 500px;
+  margin: 20px auto;
+}
+.mainContainerLeftPanel {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.mainContainerRightPanel {
+  width: 85%;
+}
+.mainContainerLeftPanel a {
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.profileContainer {
+  width: 900px;
+  height: 400px;
+  box-shadow: 0 0 10px black;
+  margin: 50px auto;
+  display: flex;
+}
+.leftPPanel {
+  width: 30%;
+}
+
+.rightPPanel {
+  width: 70%;
+  padding: 30px;
+}
+.rightPPanel dd {
+  margin-bottom: 10px;
+}
+.rightPPanel button {
+  margin-right: 20px;
+  padding: 5px 20px;
+}

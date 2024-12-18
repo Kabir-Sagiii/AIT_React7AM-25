@@ -1,0 +1,41 @@
+import "./App.css";
+
+import Nav from "./components/nav/Nav";
+import Products from "./components/products/Products";
+import Home from "./components/home/Home";
+import Profile from "./components/profile/Profile";
+import ContactUs from "./components/contactus/ContactUs";
+import { Navigate, Route, Routes } from "react-router-dom";
+import ProfileContainer from "./components/profile/ProfileContainer";
+import ProductDetails from "./components/product-details/ProductDetails";
+import Address from "./components/profile/Address";
+import Order from "./components/orders/Orders";
+import ChangePassword from "./components/change-password/ChangePassword";
+import Wishlist from "./components/wishlist/Whislist";
+import Whislist from "./components/wishlist/Whislist";
+import UseRef from "./components/useref/UseRef";
+function App() {
+  return (
+    <div>
+      <Nav />
+      <Routes>
+        <Route path={"/"} element={<Home />} />
+        <Route path={"/products"} element={<Products />} />
+        <Route path={"/useref"} element={<UseRef />} />
+        <Route path={"/profile"} element={<ProfileContainer />}>
+          <Route path="" element={<Navigate to="details" />} />
+          <Route path="details" element={<Profile />} />
+          <Route path={"address"} element={<Address />} />
+          <Route path={"orders"} element={<Order />} />
+          <Route path={"wishlist"} element={<Whislist />} />
+          <Route path={"changepassword"} element={<ChangePassword />} />
+        </Route>
+
+        <Route path={"/productdetails/:id"} element={<ProductDetails />} />
+        <Route path={"/contactus"} element={<ContactUs />} />
+      </Routes>
+    </div>
+  );
+}
+
+export default App;
