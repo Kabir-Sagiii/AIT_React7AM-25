@@ -1,0 +1,49 @@
+All Products
+-------------
+url : https://fakestoreapi.com/products
+method type : GET
+Data Format : [
+                {
+                    id:1,
+                    title:'...',
+                    price:'...',
+                    category:'...',
+                    description:'...',
+                    image:'...'
+                },
+                
+                {
+                    id:30,
+                    title:'...',
+                    price:'...',
+                    category:'...',
+                    description:'...',
+                    image:'...'
+                }
+            ]
+
+Electronics Data 
+-----------------
+url : https://fakestoreapi.com/products/category/electronics
+method type : GET
+
+Jewelery Data 
+-----------------
+url : https://fakestoreapi.com/products/category/jewelery
+method type : GET
+
+MensClothing Data 
+-----------------
+url : https://fakestoreapi.com/products/category/men's clothing
+method type : GET
+
+WomensClothing Data 
+-----------------
+url : https://fakestoreapi.com/products/category/women's clothing
+method type : GET
+
+
+Single Product API
+-------------------
+url : https://fakestoreapi.com/products/<id> 
+method type : GET

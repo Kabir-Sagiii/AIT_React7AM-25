@@ -1,0 +1,29 @@
+Class Component
+----------------
+https://youtu.be/r9WXv2s3wQ0?si=Vxk5nL1xdoc7H1QK
+
+useEffect (Friday)
+------------
+Part - 1
+----------
+https://youtu.be/2UpyWRfigME?si=GTqYykQ6fZ-y0YLs
+
+Part - 2
+---------
+https://youtu.be/s0Os0M9xhGE?si=_XMRqabZeiKV_KnH
+
+Protect Routes, useSearch Params
+---------------------------------
+https://youtu.be/dBEZdF1zHPc?si=tuYsstcYUHMGc0Gf
+
+Lifecycle Methods
+-----------------------
+https://youtu.be/3C2QNdPDIi8?si=1-JooVUwlc3PSIWn
+
+React Portals
+--------------
+https://drive.google.com/file/d/1BbgJ3yQpGy27SBS3L7BLun-E6fSlfWjv/view?usp=sharing
+
+Error Boundaries
+------------------------------------
+https://drive.google.com/file/d/1-Anb4i_3tYx86qkhKIqiSh-BSYYdIoDQ/view?usp=sharing

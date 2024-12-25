@@ -1,0 +1,35 @@
+.products {
+  padding: 30px;
+}
+.products h2,
+p {
+  margin-bottom: 20px;
+}
+.noProducts {
+  text-align: center;
+  margin-top: 50px;
+  color: red;
+  font-size: 37px;
+}
+.categories {
+  margin: 50px auto;
+  width: 800px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.productsContainer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.card {
+  width: 250px;
+  padding: 10px;
+  box-shadow: 0 0 10px green;
+  text-align: center;
+}
+.card button {
+  margin-right: 10px;
+}
