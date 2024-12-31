@@ -1,0 +1,12 @@
+var data = ["hi", "hello"];
+var info = [100, 40, 50];
+var mydata = 100;
+mydata = "vjdkfvjkf";
+mydata = true;
+var myinfo = [100, "dslkc", true];
+var x = ["cs", true]; //tuple
+var y = 100; //union
+y = "bfbf";
+y = 123;
+y = true;
+var role = "admin"; //value type
